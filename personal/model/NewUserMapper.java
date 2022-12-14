@@ -1,5 +1,5 @@
 package personal.model;
-
+//new User mapper
 public class NewUserMapper {
     public String map(User user) {
         return String.format("%s;%s;%s;%s", user.getId(), user.getFirstName(), user.getLastName(), user.getPhone());
